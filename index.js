@@ -5,7 +5,7 @@ var cors = require('cors');
 app.use(
     cors({
         credentials: true,
-        origin: 'https://tender-pike-d19ce0.netlify.app/'
+        origin: 'https://tender-pike-d19ce0.netlify.app'
     })
 );
 app.options('*', cors());
